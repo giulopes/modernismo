@@ -2,18 +2,19 @@ body {
     font-family: sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #fff8e1; /* Um tom de laranja bem claro como fundo geral */
 }
 
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #ff8f00; /* Laranja mais vibrante para os títulos */
 }
 
 .jumbotron {
-    background-color: #f8f9fa;
+    background-color: #ffe0b2; /* Laranja claro para o destaque inicial */
 }
 
 .navbar-brand img {
-    filter: grayscale(100%); /* Um toque modernista */
+    filter: grayscale(80%) sepia(20%) hue-rotate(-10deg) brightness(90%); /* Mantendo um toque modernista com um leve tom quente */
 }
 
 .nav-link {
@@ -22,16 +23,16 @@ h1, h2, h3 {
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: #ff8f00; /* Destaque laranja ao passar o mouse */
 }
 
 .secao-tropicalia {
-    background-color: #f0f8ff; /* Um azul claro suave */
+    background-color: #fff3e0; /* Outro tom de laranja suave para a seção */
     padding: 30px 0;
 }
 
 .fundo-galeria {
-    background-color: #e9ecef;
+    background-color: #ffcc80; /* Um tom de laranja um pouco mais presente */
     padding: 20px;
     border-radius: 8px;
 }
@@ -41,6 +42,32 @@ h1, h2, h3 {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffb74d; /* Uma borda sutil em laranja */
+}
+
+.form-control:focus {
+    border-color: #ff8f00;
+    box-shadow: 0 0 0 0.2rem rgba(255, 143, 0, 0.25); /* Efeito de foco em laranja */
+}
+
+.btn-primary {
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+}
+
+.btn-primary:hover {
+    background-color: #f57c00;
+    border-color: #f57c00;
+}
+
+.btn-lg {
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+}
+
+.btn-lg:hover {
+    background-color: #f57c00;
+    border-color: #f57c00;
 }
 
 .menu-acessibilidade {
@@ -53,11 +80,12 @@ h1, h2, h3 {
     flex-direction: column;
     margin-left: 10px;
     position: absolute;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
+    background-color: #fff;
+    border: 1px solid #ffb74d;
     padding: 10px;
     border-radius: 5px;
     z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .opcoes-acessibilidade.apresenta-lista {
@@ -66,21 +94,24 @@ h1, h2, h3 {
 
 .opcoes-acessibilidade button {
     margin-bottom: 5px;
+    background-color: #ffe0b2;
+    border: 1px solid #ffb74d;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.opcoes-acessibilidade button:hover {
+    background-color: #ffb74d;
+    color: #fff;
 }
 
 .alto-contraste {
-    background-color: black;
-    color: white;
-    border-color: white;
-}
-
-.alto-contraste body {
-    background-color: black;
-    color: white;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
 }
 
 .alto-contraste h1, .alto-contraste h2, .alto-contraste h3, .alto-contraste .nav-link {
-    color: #ddd;
+    color: #ffb74d; /* Tom de laranja para contraste */
 }
 
 .alto-contraste .jumbotron {
@@ -95,12 +126,13 @@ h1, h2, h3 {
     background-color: #444;
     color: #eee;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    border-color: #ff8f00;
 }
 
 .alto-contraste .form-control {
     background-color: #555;
     color: #eee;
-    border-color: #777;
+    border-color: #ff8f00;
 }
 
 .alto-contraste .form-control::placeholder {
@@ -108,16 +140,30 @@ h1, h2, h3 {
 }
 
 .alto-contraste .btn-primary {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+}
+
+.alto-contraste .btn-primary:hover {
+    background-color: #f57c00;
+    border-color: #f57c00;
 }
 
 .alto-contraste .btn-outline-secondary {
-    color: #ddd;
-    border-color: #777;
+    color: #ffb74d;
+    border-color: #ffb74d;
 }
 
 .alto-contraste .btn-outline-secondary:hover {
-    background-color: #555;
-    border-color: #555;
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #ffe0b2 !important; /* Barra de navegação e rodapé em tom de laranja claro */
+}
+
+.footer {
+    background-color: #ffe0b2;
 }
