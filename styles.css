@@ -13,8 +13,11 @@ h1, h2, h3 {
     background-color: #ffe0b2; /* Destaque inicial em laranja claro */
 }
 
+/* Estilos para a imagem da Logo do site */
 .navbar-brand img {
     filter: grayscale(80%) sepia(20%) hue-rotate(-10deg) brightness(90%); /* Toque modernista com tom quente */
+    /* Você pode adicionar mais estilos aqui, como tamanho: */
+    /* height: 60px; */
 }
 
 .nav-link {
@@ -166,4 +169,24 @@ h1, h2, h3 {
 
 .footer {
     background-color: #ffe0b2; /* Rodapé em laranja claro */
+}
+
+/* Estilos para o retrato de Anita Malfatti */
+.retrato-anita {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção */
+    /* Outros estilos que você queira adicionar ao retrato */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a obra "A Boba" */
+.obra-a-boba {
+    max-width: 100%; /* Garante que não ultrapasse a largura do contêiner */
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
