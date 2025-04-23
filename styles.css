@@ -190,3 +190,30 @@ h1, h2, h3 {
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+/* Estilos para o retrato de Tarsila Do Amaral */
+.retrato-tarsila {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção */
+    /* Outros estilos que você queira adicionar ao retrato */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para a obra "Abaporu" */
+.obra-abaporu {
+    max-width: 100%; /* Garante que não ultrapasse a largura do contêiner */
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Estilos para a obra "A Boba" */
+}
+/* Estilos para a obra "Os Operários" */
+.obra-os-operários {
+    max-width: 100%; /* Garante que não ultrapasse a largura do contêiner */
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
