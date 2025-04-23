@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    filter: grayscale(100%); /* Um toque modernista */
+}
+
+.nav-link {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.secao-tropicalia {
+    background-color: #f0f8ff; /* Um azul claro suave */
+    padding: 30px 0;
+}
+
+.fundo-galeria {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-acessibilidade {
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-acessibilidade {
+    display: none;
+    flex-direction: column;
+    margin-left: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.opcoes-acessibilidade.apresenta-lista {
+    display: flex;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.alto-contraste {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.alto-contraste body {
+    background-color: black;
+    color: white;
+}
+
+.alto-contraste h1, .alto-contraste h2, .alto-contraste h3, .alto-contraste .nav-link {
+    color: #ddd;
+}
+
+.alto-contraste .jumbotron {
+    background-color: #333;
+}
+
+.alto-contraste .bg-light {
+    background-color: #222 !important;
+}
+
+.alto-contraste .formulario {
+    background-color: #444;
+    color: #eee;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.alto-contraste .form-control {
+    background-color: #555;
+    color: #eee;
+    border-color: #777;
+}
+
+.alto-contraste .form-control::placeholder {
+    color: #aaa;
+}
+
+.alto-contraste .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.alto-contraste .btn-outline-secondary {
+    color: #ddd;
+    border-color: #777;
+}
+
+.alto-contraste .btn-outline-secondary:hover {
+    background-color: #555;
+    border-color: #555;
+}
