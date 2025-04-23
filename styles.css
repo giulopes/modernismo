@@ -2,19 +2,19 @@ body {
     font-family: sans-serif;
     color: #333;
     line-height: 1.6;
-    background-color: #fff8e1; /* Um tom de laranja bem claro como fundo geral */
+    background-color: #fff3e0; /* Fundo geral em tom de laranja bem claro */
 }
 
 h1, h2, h3 {
-    color: #ff8f00; /* Laranja mais vibrante para os títulos */
+    color: #ff8f00; /* Títulos em laranja vibrante */
 }
 
 .jumbotron {
-    background-color: #ffe0b2; /* Laranja claro para o destaque inicial */
+    background-color: #ffe0b2; /* Destaque inicial em laranja claro */
 }
 
 .navbar-brand img {
-    filter: grayscale(80%) sepia(20%) hue-rotate(-10deg) brightness(90%); /* Mantendo um toque modernista com um leve tom quente */
+    filter: grayscale(80%) sepia(20%) hue-rotate(-10deg) brightness(90%); /* Toque modernista com tom quente */
 }
 
 .nav-link {
@@ -23,16 +23,16 @@ h1, h2, h3 {
 }
 
 .nav-link:hover {
-    color: #ff8f00; /* Destaque laranja ao passar o mouse */
+    color: #ff8f00; /* Hover dos links em laranja */
 }
 
 .secao-tropicalia {
-    background-color: #fff3e0; /* Outro tom de laranja suave para a seção */
+    background-color: #fff8e1; /* Outro tom de laranja suave */
     padding: 30px 0;
 }
 
 .fundo-galeria {
-    background-color: #ffcc80; /* Um tom de laranja um pouco mais presente */
+    background-color: #ffcc80; /* Fundo da galeria em laranja */
     padding: 20px;
     border-radius: 8px;
 }
@@ -42,12 +42,12 @@ h1, h2, h3 {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ffb74d; /* Uma borda sutil em laranja */
+    border: 1px solid #ffb74d; /* Borda laranja no formulário */
 }
 
 .form-control:focus {
     border-color: #ff8f00;
-    box-shadow: 0 0 0 0.2rem rgba(255, 143, 0, 0.25); /* Efeito de foco em laranja */
+    box-shadow: 0 0 0 0.2rem rgba(255, 143, 0, 0.25); /* Foco laranja no input */
 }
 
 .btn-primary {
@@ -111,7 +111,7 @@ h1, h2, h3 {
 }
 
 .alto-contraste h1, .alto-contraste h2, .alto-contraste h3, .alto-contraste .nav-link {
-    color: #ffb74d; /* Tom de laranja para contraste */
+    color: #ffb74d; /* Laranja para contraste */
 }
 
 .alto-contraste .jumbotron {
@@ -119,7 +119,7 @@ h1, h2, h3 {
 }
 
 .alto-contraste .bg-light {
-    background-color: #222 !important;
+    background-color: #222 !important; /* Mantendo escuro no alto contraste */
 }
 
 .alto-contraste .formulario {
@@ -161,9 +161,9 @@ h1, h2, h3 {
 }
 
 .bg-light {
-    background-color: #ffe0b2 !important; /* Barra de navegação e rodapé em tom de laranja claro */
+    background-color: #ffe0b2 !important; /* Barra de navegação e rodapé em laranja claro */
 }
 
 .footer {
-    background-color: #ffe0b2;
+    background-color: #ffe0b2; /* Rodapé em laranja claro */
 }
